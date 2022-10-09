@@ -1,0 +1,10 @@
+
+chrome exe="C:\\Users\\kiran\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe";
+Firebox exe="C:\\Users\\kiran\\Downloads\\Firefox Setup 104.0.2\\Firefox Setup 104.0.2.exe";
+
+Facebook url="https://www.facebook.com/";
+base url e bank="http://demo.guru99.com/v4/index.php";
+
+usename="mngr437054";
+pass="sYmusag";
+	
