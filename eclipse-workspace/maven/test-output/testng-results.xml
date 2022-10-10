@@ -2,62 +2,30 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-09T08:56:39 IST" name="Default suite" finished-at="2022-10-09T08:56:56 IST" duration-ms="17687">
+  <suite started-at="2022-10-10T11:09:39 IST" name="Default suite" finished-at="2022-10-10T11:10:58 IST" duration-ms="79403">
     <groups>
     </groups>
-    <test started-at="2022-10-09T08:56:39 IST" name="Default test" finished-at="2022-10-09T08:56:56 IST" duration-ms="17687">
-      <class name="Test.Test_class_zeridha_kite">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Test.Test_class_zeridha_kite@4facf68f]" started-at="2022-10-09T08:56:39 IST" name="launchBrowser" finished-at="2022-10-09T08:56:48 IST" duration-ms="9376" status="PASS">
+    <test started-at="2022-10-10T11:09:39 IST" name="Default test" finished-at="2022-10-10T11:10:58 IST" duration-ms="79403">
+      <class name="Test.Test_class_Flipkard">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:Test.Test_class_Flipkard@4facf68f]" started-at="2022-10-10T11:09:39 IST" name="LaunchBrowser" finished-at="2022-10-10T11:10:43 IST" duration-ms="64069" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="loginToApplication()[pri:1, instance:Test.Test_class_zeridha_kite@4facf68f]" started-at="2022-10-09T08:56:48 IST" name="loginToApplication" finished-at="2022-10-09T08:56:56 IST" duration-ms="8080" status="PASS">
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="LoginToApllication()[pri:0, instance:Test.Test_class_Flipkard@4facf68f]" started-at="2022-10-10T11:10:43 IST" name="LoginToApllication" finished-at="2022-10-10T11:10:47 IST" duration-ms="3532" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="Set_Pin()[pri:2, instance:Test.Test_class_zeridha_kite@4facf68f]" started-at="2022-10-09T08:56:56 IST" name="Set_Pin" finished-at="2022-10-09T08:56:56 IST" duration-ms="161" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- LoginToApllication -->
+        <test-method signature="SelectProduct()[pri:0, instance:Test.Test_class_Flipkard@4facf68f]" started-at="2022-10-10T11:10:47 IST" name="SelectProduct" finished-at="2022-10-10T11:10:58 IST" duration-ms="11749" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='password']"}
-  (Session info: chrome=106.0.5249.103)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-96G9TDJ3', ip: '192.168.54.62', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\kiran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8633d7abcb835e819a7a196c4bc23809
-*** Element info: {Using=xpath, value=//input[@type='password']}]]>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Solid Men Polo Neck Light Green T-Shirt'] (tried for 10 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='password']"}
-  (Session info: chrome=106.0.5249.103)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-96G9TDJ3', ip: '192.168.54.62', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\kiran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8633d7abcb835e819a7a196c4bc23809
-*** Element info: {Using=xpath, value=//input[@type='password']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
-at zeroda.Set_pin.enterPin(Set_pin.java:25)
-at Test.Test_class_zeridha_kite.Set_Pin(Test_class_zeridha_kite.java:46)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Solid Men Polo Neck Light Green T-Shirt'] (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Flipkard.Select_product.SelectProductFromOption(Select_product.java:27)
+at Test.Test_class_Flipkard.SelectProduct(Test_class_Flipkard.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -86,13 +54,41 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Solid Men Polo Neck Light Green T-Shirt']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-96G9TDJ3', ip: '192.168.240.62', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\kiran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bfa65061192fcd3eb4c5871da93d4c5c
+*** Element info: {Using=xpath, value=//a[text()='Solid Men Polo Neck Light Green T-Shirt']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Set_Pin -->
-      </class> <!-- Test.Test_class_zeridha_kite -->
+        </test-method> <!-- SelectProduct -->
+      </class> <!-- Test.Test_class_Flipkard -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

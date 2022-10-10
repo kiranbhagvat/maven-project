@@ -68,9 +68,6 @@ public class Test_class_e_banking extends Base_class_e_banking  {
 		nu.clickOnSubmiteButton();
 		Utility.captureScreenshot(driver, "newuser");
 		Thread.sleep(3000);
-		
-		
-	
 	}
 	@AfterMethod
 	public void logoutTheApplication(ITestResult result) throws InterruptedException, IOException

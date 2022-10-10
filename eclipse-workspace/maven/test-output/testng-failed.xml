@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.Test_class_zeridha_kite">
+      <class name="Test.Test_class_Flipkard">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="Set_Pin"/>
+          <include name="LaunchBrowser"/>
+          <include name="SelectProduct"/>
         </methods>
-      </class> <!-- Test.Test_class_zeridha_kite -->
+      </class> <!-- Test.Test_class_Flipkard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
