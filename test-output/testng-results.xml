@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-14T08:26:02 IST" name="Default suite" finished-at="2022-10-14T08:26:17 IST" duration-ms="15153">
+    <groups>
+    </groups>
+    <test started-at="2022-10-14T08:26:02 IST" name="Default test" finished-at="2022-10-14T08:26:17 IST" duration-ms="15153">
+      <class name="Test.WebTable">
+        <test-method is-config="true" signature="LuanchBrowser()[pri:0, instance:Test.WebTable@4facf68f]" started-at="2022-10-14T08:26:02 IST" name="LuanchBrowser" finished-at="2022-10-14T08:26:16 IST" duration-ms="13813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchBrowser -->
+        <test-method signature="HandleWebTable()[pri:1, instance:Test.WebTable@4facf68f]" started-at="2022-10-14T08:26:16 IST" name="HandleWebTable" finished-at="2022-10-14T08:26:17 IST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandleWebTable -->
+        <test-method signature="Fitchcolunm()[pri:2, instance:Test.WebTable@4facf68f]" started-at="2022-10-14T08:26:17 IST" name="Fitchcolunm" finished-at="2022-10-14T08:26:17 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fitchcolunm -->
+      </class> <!-- Test.WebTable -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
