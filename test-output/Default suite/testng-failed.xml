@@ -5,6 +5,7 @@
     <classes>
       <class name="Test.WebTable">
         <methods>
+          <include name="HandleWebTable"/>
           <include name="LuanchBrowser"/>
           <include name="Fitchcolunm"/>
         </methods>
