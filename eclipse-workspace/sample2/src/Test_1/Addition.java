@@ -9,6 +9,8 @@ public class Addition {
 		int c;
 		
 		c=a+b;
+		int d=a-b;
+		System.out.println(d);
 		
 		System.out.println("Addition is :"+c);
 	}
