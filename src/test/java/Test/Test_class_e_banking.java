@@ -32,15 +32,18 @@ public class Test_class_e_banking extends Base_class_e_banking  {
 	public void loginapplication() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		lp=new Login_to_appllication(driver);
+		logger.info("Enter username"
+				+ "");
 		lp.userId(Utility.parameterization(3, 0));
 		lp.enterpassword(Utility.parameterization(4, 0));
 		lp.ClickOnSubmitButton();
+		logger.info("Login succesfully");
         Thread.sleep(3000);
         Alert al=driver.switchTo().alert();
         al.accept();
         System.out.println(al.getText());
         
-		Utility.captureScreenshot(driver, "fisrt");
+		
 		
 		String Act="https://demo.guru99.com/v4/manager/Managerhomepage.php";
 		

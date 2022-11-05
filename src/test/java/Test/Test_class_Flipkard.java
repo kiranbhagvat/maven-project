@@ -43,6 +43,5 @@ public class Test_class_Flipkard extends Flipkard_Base_class{
 	{
 		s=new Select_product(driver);
 		s.SelectProductFromOption();
-		
 	}
 }

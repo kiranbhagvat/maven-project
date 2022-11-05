@@ -13,7 +13,7 @@ public class Select_product {
 	
 	WebDriver driver;
 	WebDriverWait wait;
-	@FindBy(xpath="//a[text()='Solid Men Polo Neck Light Green T-Shirt']")
+	@FindBy(xpath="//a[text()='Color Block Men Round Neck Black T-Shirt']")
 	private WebElement Shirt;
 	
 	public Select_product(WebDriver ldriver)
@@ -23,7 +23,7 @@ public class Select_product {
 	}
 	public void SelectProductFromOption()
 	{
-		wait=new WebDriverWait(driver,10);
+		wait=new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Solid Men Polo Neck Light Green T-Shirt']")));
 		
 	     Shirt.click();

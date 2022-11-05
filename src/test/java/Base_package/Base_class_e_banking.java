@@ -18,17 +18,17 @@ public class Base_class_e_banking {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\kiran\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
 	     driver=new ChromeDriver();
 		driver.get("http://demo.guru99.com/v4/index.php");
-		driver.manage().window().maximize();	
+		driver.manage().window().maximize();
+		
+		logger=Logger.getLogger("ebanking");
+		PropertyConfigurator.configure("Log4j.properties");
+	
 	}
-
-}
-               //logger=Logger.getLogger("e-banking");
-               //PropertyConfigurator.configure("Log4j.properties");
 
 		//	System.setProperty("webdriver.gegho.driver", "C:\\Users\\kiran\\Downloads\\Firefox Setup 104.0.2\\Firefox Setup 104.0.2.exe");
 		  //   driver=new ChromeDriver();
 			//driver.get("http://demo.guru99.com/v4/index.php");
 			//driver.manage().window().maximize();
 		
-	
+}
 

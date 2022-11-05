@@ -1,6 +1,7 @@
 package Base_package;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +18,9 @@ public class Flipkard_Base_class {
 	    driver=new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();	
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		
+		
 	}
 
 }

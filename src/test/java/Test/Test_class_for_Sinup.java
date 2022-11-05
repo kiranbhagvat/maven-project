@@ -1,7 +1,4 @@
 package Test;
-
-
-
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -44,9 +41,7 @@ public class Test_class_for_Sinup extends Base_class1{
 		sf.clickOnSubmitButton();
 		Utility.captureScreenshot(driver, "Homepage");
 	String Exp=	driver.getCurrentUrl();
-	String Act="https://en-gb.facebook.com/";
 	
-	Assert.assertEquals(Act, Exp, "Test Case is pass Sin_up succesfully");
 		
 		sf.selectdayFromDropdown();
 		sf.SelectMaonth();
